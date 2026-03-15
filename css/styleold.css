@@ -36,17 +36,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* .contacts-list {
   display: flex;
   align-items: center;
@@ -333,7 +322,7 @@
 }
 
 .footer-logo {
-  display: inline-block;
+  
   color: #f4f4fd;
 }
 
@@ -355,7 +344,6 @@
 
 .footer-social-list {
   display: flex;
-  /* justify-content: flex-start; */
   gap: 16px;
 }
 
