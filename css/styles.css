@@ -812,9 +812,10 @@ address {
   .footer-container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 0; 
     padding-left: 15px;
+    
   }
 
   .logo-social-wrap {
