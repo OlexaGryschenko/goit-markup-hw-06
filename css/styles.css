@@ -267,7 +267,6 @@ address {
   background-color: #2e2f42;
   padding: 72px 0;
   margin: 0 auto;
-  max-width: 320px;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/hero/hero-mobile.jpg");
@@ -323,7 +322,6 @@ address {
 @media screen and (min-width: 768px) {
   .hero {
     padding: 112px 0;
-    max-width: 768px;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero/hero-tablet.jpg");
@@ -350,7 +348,7 @@ address {
 @media screen and (min-width: 1158px) {
   .hero {
     padding: 188px 0;
-    max-width: 1440px; /* Вимога D3: обмеження для десктопа */
+    max-width: 1440px; 
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero/hero-desktop.jpg");
@@ -451,7 +449,7 @@ address {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 72px;
 }
 
@@ -691,6 +689,7 @@ address {
 .footer-subscribe-container {
   display: flex;
   flex-direction: column;
+  align-items: center
 }
 
 .footer-form {
@@ -796,7 +795,6 @@ address {
   }
 
   .footer-subscribe-container {
-    flex-direction: column;
     align-items: start;
     gap: 24px;
   }
@@ -807,20 +805,29 @@ address {
   }
 }
 
-/* #endregion */
+/* #endregion tab*/
 
 /* #region Deck == */
 @media screen and (min-width: 1158px) {
   .footer-container {
+    display: flex;
     flex-direction: row;
-    align-items: baseline;
-    flex-wrap: nowrap;
-    gap: 80px;
-    padding-left: 16px;
+    align-items: flex-start;
+    gap: 0; 
+    padding-left: 15px;
   }
 
   .logo-social-wrap {
+    display: flex;
+    align-items: flex-start;
     gap: 120px;
+    
+  }
+
+  .footer-subscribe-container {
+    margin-left: auto; 
+    flex-shrink: 0;
+   
   }
 }
 /* #endregion */
