@@ -270,7 +270,7 @@ address {
   max-width: 320px;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero/hero-mobil.jpg");
+    url("../images/hero/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -356,18 +356,19 @@ address {
       url("../images/hero/hero-desktop.jpg");
   }
 
-  .hero-title {
-    margin: 0 auto 48px;
-  }
-}
-
-@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+   @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero/hero-desktop@2x.jpg");
   }
 }
+  .hero-title {
+    margin: 0 auto 48px;
+  } 
+}
+
+
 
 /* #endregion */
 
