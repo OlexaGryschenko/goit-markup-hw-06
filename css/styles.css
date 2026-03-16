@@ -356,19 +356,19 @@ address {
       url("../images/hero/hero-desktop.jpg");
   }
 
-   @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/hero/hero-desktop@2x.jpg");
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero/hero-desktop@2x.jpg");
+    }
   }
-}
+
   .hero-title {
     margin: 0 auto 48px;
-  } 
+  }
 }
-
-
 
 /* #endregion */
 
@@ -452,7 +452,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
-  gap: 64px 24px;
+  gap: 72px;
 }
 
 .team {
@@ -519,7 +519,7 @@ address {
 
 @media screen and (min-width: 768px) {
   .team-list {
-    gap: 72px 24px;
+    gap: 64px 24px;
   }
 }
 
@@ -527,7 +527,7 @@ address {
 
 @media screen and (min-width: 1158px) {
   .team-list {
-    gap: 24px; 
+    gap: 24px;
   }
 }
 
@@ -557,7 +557,8 @@ address {
 .portfolio-item {
   width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -628,7 +629,8 @@ address {
   }
   .portfolio-item:hover,
   .portfolio-item:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    box-shadow:
+      0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 2px 1px rgba(46, 47, 66, 0.08);
   }
@@ -658,7 +660,7 @@ address {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -1007,8 +1009,6 @@ address {
   transform: translate(-50%, -50%) scale(1);
 }
 
-
-
 .modal {
   position: absolute;
   top: 50%;
@@ -1025,8 +1025,6 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 16px 24px 16px;
 }
-
-
 
 .modal-title {
   font-weight: 500;
