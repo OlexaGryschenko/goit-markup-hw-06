@@ -764,6 +764,7 @@ address {
   .footer-container {
     align-items: start;
     padding-left: 108px;
+    padding-right: 108px;
   }
   .footer-logo-text-wrap {
     text-align: left;
@@ -796,7 +797,7 @@ address {
 
   .footer-subscribe-container {
     align-items: start;
-    gap: 24px;
+    gap: 16px;
   }
 
   .footer-form {
@@ -815,6 +816,7 @@ address {
     align-items: baseline;
     gap: 0; 
     padding-left: 15px;
+    padding-right: 15px;
     
   }
 
