@@ -446,13 +446,13 @@ address {
 }
 /* #endregion */
 
-/* #region ================  TEAN ======================   */
+/* #region ================  TEAM ======================   */
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 72px;
 }
 
 .team {
@@ -519,11 +519,17 @@ address {
 
 @media screen and (min-width: 768px) {
   .team-list {
-    gap: 64px 24px;
+    gap: 72px 24px;
   }
 }
 
 /* ============= Team Decktop ============== */
+
+@media screen and (min-width: 1158px) {
+  .team-list {
+    gap: 24px; 
+  }
+}
 
 /* #endregion */
 
@@ -551,6 +557,9 @@ address {
 .portfolio-item {
   width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover,
@@ -615,6 +624,13 @@ address {
 
   .portfolio-item {
     width: calc((100% - 48px) / 3);
+    box-shadow: none;
+  }
+  .portfolio-item:hover,
+  .portfolio-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 }
 /* #endregion  ==============    Portfolio      ===============*/
