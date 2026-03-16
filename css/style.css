@@ -270,7 +270,7 @@ address {
   max-width: 320px;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero/hero-bg.jpg");
+    url("../images/hero/hero-mobil.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -336,13 +336,7 @@ address {
   }
 }
 
-/* .hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
-} */
-
-@media screen and (min-width: 768px) and (min-resolution: 192dpi),
-  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -366,8 +360,7 @@ address {
   }
 }
 
-@media screen and (min-width: 1158px) and (min-resolution: 192dpi),
-  screen and (min-width: 1158px) and (min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
