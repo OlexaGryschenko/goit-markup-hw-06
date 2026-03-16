@@ -451,8 +451,8 @@ address {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 72px;
+  /* justify-content: center; */
+  gap: 64px 24px;
 }
 
 .team {
@@ -657,7 +657,8 @@ address {
 }
 
 .footer-logo {
-  margin-bottom: 18px;
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 
 .footer-text {
@@ -694,7 +695,7 @@ address {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-button {
@@ -800,6 +801,7 @@ address {
 
   .footer-form {
     flex-direction: row;
+    gap: 24px;
   }
 }
 
