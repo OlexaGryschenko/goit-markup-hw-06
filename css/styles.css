@@ -276,7 +276,8 @@ address {
   background-size: cover;
 }
 
-@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi),
+  screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -334,13 +335,13 @@ address {
     max-width: 496px;
     margin-bottom: 36px;
   }
-}
 
-@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/hero/hero-tablet@2x.jpg");
+  @media screen and (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero/hero-tablet@2x.jpg");
+    }
   }
 }
 
